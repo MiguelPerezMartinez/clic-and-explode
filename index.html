@@ -10,11 +10,23 @@
 </head>
 <body>
   <header></header>
-  <main>
-    <section class="login">
-      <div></div>
-    </section>
-    <section class="game">
+  <main> 
+   
+
+    <section class="game"> 
+      <!-- LOGIN -->
+      <div id="logIn">
+        <h1 id="title">
+          Chose a User Name
+        </h1>
+        <input type="text" id="username"></input>
+        <div id="loginBttn">
+          <input class="button" type="button" id="usernameBttn" value="Start"></input>
+          <input class="button" type="button" id="resetBttn" value="Restart"></input>
+        </div>
+      </div>
+
+      <!--Game-->
       <div class="button-explode red"></div>
       <div class="button-explode green"></div>
       <div class="button-explode blue"></div>
@@ -22,9 +34,16 @@
       <div class="button-explode orange"></div>
       <div class="button-explode yellow"></div>
     </section>
-    <section class="menu"></section>
+    <section class="menu">
+      <div id="scoreTitle">
+        <h1>TOP PLAYERS</h1>
+      </div>
+      <div class="list"></div>
+    </section>
   </main>
   <footer></footer>
+  <script src="js/game.js"></script>
+  <script src="js/score.js"></script>
   <script src="js/animations.js"></script>
 </body>
 </html>
