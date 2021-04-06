@@ -33,7 +33,7 @@
 
   /* ----- MENU ----- */
   .game{
-    display:none;
+    display:block;
     width:100vw;
     border:2px solid black;
   }
@@ -43,7 +43,7 @@
     width:100vw;
     height:90vh;
     left:-100vh;
-    z-index:1;
+    z-index:1000;
     border:2px solid black;
     transition:left 1s;
     background-color:white;
