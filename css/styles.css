@@ -43,6 +43,7 @@ main{
 
 .player{
   border:5px solid black;
+  background-color:white;
   position:absolute;
   width:5%;
   height:8%;
@@ -70,12 +71,31 @@ main{
 }
 
 .fixed{
-  border:5px solid black;
+  background-color:black;
   position:absolute;
   width:10%;
   height:10%;
   top:45%;
   left:45%;
+}
+
+.deep-one{
+  position:absolute;
+  top:0;
+  left:-125%;
+  width:225%;
+  height:1%;
+  background-color:black;
+  transform:rotate(31.5deg);
+}
+
+.deep-two{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:1%;
+  background-color:black;
 }
 
 /* ----- MENU ----- */
