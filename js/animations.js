@@ -23,9 +23,12 @@ document.querySelector('.yellow').addEventListener('click',buttonExplodeYellow);
 var explodeBttnRed = document.querySelector('.red');
 var explodeBttnGreen = document.querySelector('.green');
 var explodeBttnBlue = document.querySelector('.blue');
-var explodeBttnPurple = document.querySelector('.button-explode');
-var explodeBttnOrange = document.querySelector('.button-explode');
-var explodeBttnYellow = document.querySelector('.button-explode');
+var explodeBttnPurple = document.querySelector('.purple');
+var explodeBttnOrange = document.querySelector('.orange');
+var explodeBttnYellow = document.querySelector('.yellow');
+
+//Tunnel animation
+var explodeMarcoUno = document.querySelector('.marco-uno');
 
 let r_width = 20,g_width = 20,b_width = 20,p_width = 20,o_width = 20,y_width = 20;
 let r_height = 20,g_height = 20,b_height = 20,p_height = 20,o_height = 20,y_height = 20;
