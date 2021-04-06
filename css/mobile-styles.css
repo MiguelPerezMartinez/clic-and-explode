@@ -1,0 +1,51 @@
+@media (max-width: 400px){
+  *{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+  /* ----- MAIN STYLES ----- */
+  header{
+    display:block;
+    width:100vw;
+    height:10vh;
+    border:2px solid black;
+    z-index:5;
+  }
+
+  main{
+    width:100vw;
+    height:90vh;
+  }
+
+  /* ----- LOGIN ----- */
+  .login{
+    width:100vw;
+    border:2px solid black;
+  }
+
+  .login>div{
+    width:80%;
+    top:20%;
+    left:10%;
+  }
+
+  /* ----- MENU ----- */
+  .game{
+    display:none;
+    width:100vw;
+    border:2px solid black;
+  }
+
+  .menu{
+    position:absolute;
+    width:100vw;
+    height:90vh;
+    left:-100vh;
+    z-index:1;
+    border:2px solid black;
+    transition:left 1s;
+    background-color:white;
+  }
+}
